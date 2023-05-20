@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(213 210 210);
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #333;
+    position: fixed;
+    width: 97%;
+  }
+  
+  li {
+    float: right;
+    /* word-spacing: 40px; */
+  }
+  #LISYS{
+    float : left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+
+
+  input{
+    height: 15%;
+    width: 100%;
+  }
+  
+
+  button{
+    background: black;
+    color:white;
+    height: 2rem;
+    width: 100%;
+  }
+
+
+  table td{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    /* text-align: center; */
+  }
+  table th{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    align-items: center;
+
+  }
+  .books{
+    border: 2px solid rgb(213 210 210);;
+    margin: 10px 300px;
+    padding: 15px;
+    background-color: white;
+
+  }
+  .Register{
+    border: 2px solid rgb(213 210 210);;
+    margin: 10px 300px;
+    padding: 15px;
+    background-color: white;
+  }
+  .name{
+    height: 20px;
+    margin: 5px 0px;
+    padding-right: 0px;
+  }
+  .tabledata{
+    margin: 6px 5px 5px 2px;
+    border-color: rgb(213 210 210);
+  }
+  

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale:">
+        <title>Library System</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li id="LISYS"><a href="#">Library System</a></li>
+                <li><a href="#">Logout</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Books</a></li>
+
+              </ul>
+        </nav><br>
+        <br>
+        <br>
+        <div id="books" class="books">
+            <section>
+                <h1>Books</h1>
+            </section>
+       <table border="1" cellspacing="0" style="border-color: rgb(213 210 210);">
+           <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Avaliablity</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>
+                <a href="#">Atomic Habits</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 2018</td></tr>
+                    <tr><td>Page Count: 320</td></tr>
+                    <tr><td>ISBN: 9783442178582</td></tr>
+                </table>
+            </td>
+            <td>James clear</td>
+            <td>Self Help</td>
+            <td>Available</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>
+                <a href="#">Half Blood Prince</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 2005</td></tr>
+                    <tr><td>Page Count: 672</td></tr>
+                    <tr><td>ISBN: 0-7475-8108-8</td></tr>
+                </table>
+            </td>
+            <td>J. K. Rowling</td>
+            <td>Fantasy/Fiction</td>
+            <td>Available</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>
+                <a href="#">In Cold Blood</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 1965</td></tr>
+                    <tr><td>Page Count: 343</td></tr>
+                    <tr><td>ISBN: 9783036992341</td></tr>
+                </table>
+            </td>
+            <td>Truman Capote</td>
+            <td>Non-Fiction</td>
+            <td>Not Available</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>
+                <a href="#">Gone girl</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 2012</td></tr>
+                    <tr><td>Page Count: 466</td></tr>
+                    <tr><td>ISBN: 978030757588388</td></tr>
+                </table>
+            </td>
+            <td>Gillian Flynn</td>
+            <td>Crime Thriller</td>
+            <td>Available</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>
+                <a href="#">The Alchemist</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 1988</td></tr>
+                    <tr><td>Page Count: 163</td></tr>
+                    <tr><td>ISBN: 9780061741241</td></tr>
+                </table>
+            </td>
+            <td>Paulo Coelho</td>
+            <td>Adventure Fiction</td>
+            <td>Not Available</td>
+           </tr>
+           <td>6</td>
+            <td>
+                <a href="#">Astrophysics for People in a Hurry</a>
+                <table border="1" cellspacing="0" class="tabledata">
+                    <tr><td>Publication Date: 2017</td></tr>
+                    <tr><td>Page Count: 244</td></tr>
+                    <tr><td>ISBN: 9783882178582</td></tr>
+                </table>
+            </td>
+            <td>Neil deGrasse Tyson</td>
+            <td>Non-Fiction</td>
+            <td>Available</td>
+           </tr>
+       </table>
+        </div>
+        <br>
+        <div id="Register" class="Register">
+            <section>
+                <h1>Register</h1><br>
+            </section>
+            <form method="POST">
+                <div>
+                    <label for="name">First Name:</label><br>
+                    <input type="text" id="name" name="name" class="name"required><br>
+                </div>
+                <div>
+                    <label for="name">Last Name:</label><br>
+                    <input type="text" id="name" name="name" class="name" required><br>
+                </div>
+                <div>
+                    <label for="dob">Date Of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required class="name"><br>
+                </div>
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" minlength="6" maxlength="100" class="name"><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required class="name"><br>
+                </div>
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required class="name"><br>
+                </div>
+                <div>
+                    <label for="confirm password">Confirm Password:</label><br>
+                    <input type="password" id="password" name="password" required class="name"><br>
+                </div>
+                <div><br>
+                    <button type="submit">Register</button>
+                </div>
+
+            </form>
+    </div>
+</body>
+</html>
